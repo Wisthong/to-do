@@ -7,7 +7,7 @@ function App() {
   const [tareas, setTareas] = useState([]); // TODO: States
   const [tarea, setTarea] = useState({}); // TODO: States
   const deleteOneTask = (id) => {
-    console.log('******Delete task*****', id);
+    // console.log('******Delete task*****', id);
     const arrayTemp = tareas.filter(parametro => parametro.id !== id);
     setTareas(arrayTemp)
   }

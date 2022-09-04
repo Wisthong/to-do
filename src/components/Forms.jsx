@@ -74,7 +74,7 @@ export const Forms = ({ tareas, setTareas, tarea, setTarea }) => {
         {error && <AlertError>Falta llenar el campo</AlertError>}
         {/* {error && <AlertError msg='😡Falta llenar el campo😡'/>} */}
         <div className="mb-5">
-          <label htmlFor="titulo" className="block text-blue-800 font-bold">
+          <label htmlFor="titulo" className="text-center block text-blue-800 font-bold">
             Titulo
           </label>
           <input
@@ -87,7 +87,7 @@ export const Forms = ({ tareas, setTareas, tarea, setTarea }) => {
           />
         </div>
         <div className="mb-5">
-          <label htmlFor="fecha" className="block text-blue-800 font-bold">
+          <label htmlFor="fecha" className="text-center block text-blue-800 font-bold">
             Fecha
           </label>
           <input
@@ -102,9 +102,9 @@ export const Forms = ({ tareas, setTareas, tarea, setTarea }) => {
         <div className="mb-5">
           <label
             htmlFor="description"
-            className="block text-blue-800 font-bold"
+            className="text-center block text-blue-800 font-bold"
           >
-            Description
+            Descripción
           </label>
           <textarea
             id="description"
